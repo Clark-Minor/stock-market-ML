@@ -4,7 +4,7 @@ from utils import data_string_to_float, status_calc
 
 
 # The percentage by which a stock has to beat the S&P500 to be considered a 'buy'
-OUTPERFORMANCE = 10
+OUTPERFORMANCE = 20
 
 
 def build_data_set():
@@ -48,10 +48,11 @@ def predict_stocks():
         print("No stocks predicted!")
     else:
         invest_list = z[y_pred].tolist()
+        #print(invest_list)
         print(
             f"{len(invest_list)} stocks predicted to outperform the S&P500 by more than {OUTPERFORMANCE}%:"
         )
-        print(" ".join(invest_list))
+        print(invest_list)
         return invest_list
 
 
