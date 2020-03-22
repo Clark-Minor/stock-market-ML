@@ -1,1 +1,1 @@
-[https://clark-minor.github.io/stock-market-ML/]
+https://clark-minor.github.io/stock-market-ML/
