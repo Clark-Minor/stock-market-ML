@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import { View, Image } from 'react-native';
 
-<button onclick="PresentData({})">
-  American Eagle Corporation
-</button>
-
 export default class PresentData extends Component {
   render() {
     return (
