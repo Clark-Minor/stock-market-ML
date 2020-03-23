@@ -1,0 +1,27 @@
+<------------------------------
+Tweet Date: 2020-03-22T23:53:40
+Screen Name: gchandler07
+Location: Madison, IN
+Language: None
+Friends: 382
+Followers: 38
+Statuses: 1169
+Tweet ID: 1241875723935195137
+Tweet Raw Text: Day 41 without sports.  You and your son create your own madness 😔😂✌🏼🤟🏼💥 #nba #lockdown #xbox https://t.co/G3fCPZn1vu
+Tweet Filtered Text: Day 41 without sports.  You and your son create your own madness 😔😂✌🏼🤟🏼💥 #nba #lockdown #xbox
+NLTK Tokens: ['day', 'without', 'sports', 'son', 'create', 'madness', 'nba', 'lockdown', 'xbox']
+Tweet Clean Text (sentiment): Day 41 without sports.  You and your son create your own madness 😔😂✌🏼🤟🏼💥
+************
+Sentiment Polarity: 0.53835
+Sentiment Subjectivity: 1.0
+Sentiment (url): None
+Sentiment (algorithm): positive
+Overall sentiment (textblob):  Sentiment(polarity=0.6, subjectivity=1.0)
+Overall sentiment (vader):  {'neg': 0.179, 'neu': 0.565, 'pos': 0.256, 'compound': 0.4767}
+sentence was rated as  17.9 % Negative
+sentence was rated as  56.49999999999999 % Neutral
+sentence was rated as  25.6 % Positive
+************
+2020-03-22 16:53:45,473 [INFO][stocksight] Adding tweet to elasticsearch
+
+------------------------------> (tweets: 309, filtered: 124, filter-ratio: 40.13%)

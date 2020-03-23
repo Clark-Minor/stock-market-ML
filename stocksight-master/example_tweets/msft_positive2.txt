@@ -1,0 +1,25 @@
+<------------------------------
+Tweet Date: 2020-03-22T23:46:23
+Screen Name: mjgoodwinart
+Location: Dover, NH
+Language: None
+Friends: 602
+Followers: 144
+Statuses: 7042
+Tweet ID: 1241873894409228288
+Tweet Raw Text: @https_aj if ur using netflix, 'netflix party' in the microsoft store works really well.
+Tweet Filtered Text: @ if ur using netflix, 'netflix party' in the microsoft store works really well.
+NLTK Tokens: ['using', 'netflix', 'netflix', 'party', 'microsoft', 'store', 'works', 'really', 'well']
+Tweet Clean Text (sentiment): @ if ur using netflix, 'netflix party' in the microsoft store works really well.
+************
+Sentiment Polarity: 0.41200000000000003
+Sentiment Subjectivity: 0.2
+Sentiment (url): None
+Sentiment (algorithm): positive
+Overall sentiment (textblob):  Sentiment(polarity=0.2, subjectivity=0.2)
+Overall sentiment (vader):  {'neg': 0.0, 'neu': 0.702, 'pos': 0.298, 'compound': 0.624}
+sentence was rated as  0.0 % Negative
+sentence was rated as  70.19999999999999 % Neutral
+sentence was rated as  29.799999999999997 % Positive
+************
+2020-03-22 16:46:29,362 [INFO][stocksight] Adding tweet to elasticsearch

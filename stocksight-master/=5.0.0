@@ -1,0 +1,2 @@
+Requirement already satisfied: elasticsearch in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (7.6.0)
+Requirement already satisfied: urllib3>=1.21.1 in /Users/clarkminor/Library/Python/3.7/lib/python/site-packages (from elasticsearch) (1.25.8)

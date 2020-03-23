@@ -1,0 +1,25 @@
+<------------------------------
+Tweet Date: 2020-03-22T23:50:27
+Screen Name: O_Levander
+Location: None
+Language: None
+Friends: 37
+Followers: 5
+Statuses: 34
+Tweet ID: 1241874914057097223
+Tweet Raw Text: Y'all have no idea how excited @ToxicatedCandy got when I switched from the Xbox to the Switch and had ACNL on the… https://t.co/fRIknEPk4l
+Tweet Filtered Text: Y'all have no idea how excited @ToxicatedCandy got when I switched from the Xbox to the Switch and had ACNL on the
+NLTK Tokens: ['yall', 'idea', 'excited', 'toxicatedcandy', 'got', 'switched', 'xbox', 'switch', 'acnl']
+Tweet Clean Text (sentiment): Y'all have no idea how excited  got when I switched from the Xbox to the Switch and had ACNL on the
+************
+Sentiment Polarity: 0.2133
+Sentiment Subjectivity: 0.75
+Sentiment (url): None
+Sentiment (algorithm): positive
+Overall sentiment (textblob):  Sentiment(polarity=0.375, subjectivity=0.75)
+Overall sentiment (vader):  {'neg': 0.093, 'neu': 0.805, 'pos': 0.102, 'compound': 0.0516}
+sentence was rated as  9.3 % Negative
+sentence was rated as  80.5 % Neutral
+sentence was rated as  10.2 % Positive
+************
+2020-03-22 16:50:32,668 [INFO][stocksight] Adding tweet to elasticsearch

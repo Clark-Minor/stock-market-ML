@@ -1,0 +1,26 @@
+Tweet Date: 2020-03-23T04:43:36
+Screen Name: rasmuslovstad
+Location: None
+Language: None
+Friends: 439
+Followers: 134
+Statuses: 3801
+Tweet ID: 1241948688160706561
+Tweet Raw Text: RT @charlesornstein: Trump’s push to use hydroxychloroquine to treat COVID-19 has triggered a run on the drug. Healthy people are stocking…
+Tweet Filtered Text: @charlesornstein: Trump’s push to use hydroxychloroquine to treat COVID-19 has triggered a run on the drug. Healthy people are stocking
+NLTK Tokens: ['charlesornstein', 'trump', 'push', 'use', 'hydroxychloroquine', 'treat', 'triggered', 'run', 'drug', 'healthy', 'people', 'stocking']
+Tweet Clean Text (sentiment): Trump’s push to use hydroxychloroquine to treat COVID-19 has triggered a run on the drug. Healthy people are stocking
+************
+Sentiment Polarity: 0.57985
+Sentiment Subjectivity: 0.5
+Sentiment (url): None
+Sentiment (algorithm): positive
+Overall sentiment (textblob):  Sentiment(polarity=0.5, subjectivity=0.5)
+Overall sentiment (vader):  {'neg': 0.0, 'neu': 0.759, 'pos': 0.241, 'compound': 0.6597}
+sentence was rated as  0.0 % Negative
+sentence was rated as  75.9 % Neutral
+sentence was rated as  24.099999999999998 % Positive
+************
+2020-03-22 21:43:41,315 [INFO][stocksight] Adding tweet to elasticsearch
+
+------------------------------> (tweets: 81, filtered: 35, filter-ratio: 43.21%)

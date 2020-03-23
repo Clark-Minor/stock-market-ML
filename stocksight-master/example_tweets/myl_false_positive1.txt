@@ -1,0 +1,27 @@
+<------------------------------
+Tweet Date: 2020-03-23T05:10:51
+Screen Name: Dipal24314215
+Location: None
+Language: None
+Friends: 7
+Followers: 4
+Statuses: 420
+Tweet ID: 1241955547999584256
+Tweet Raw Text: RT @ebm_media: After a grand success of previous editions, Eminence Business Media presents the 3rd Annual Pharma Manufacturing &amp; Automatio…
+Tweet Filtered Text: @ebm_media: After a grand success of previous editions, Eminence Business Media presents the 3rd Annual Pharma Manufacturing  Automatio
+NLTK Tokens: ['ebmmedia', 'grand', 'success', 'previous', 'editions', 'eminence', 'business', 'media', 'presents', 'annual', 'pharma', 'manufacturing', 'automatio']
+Tweet Clean Text (sentiment): After a grand success of previous editions, Eminence Business Media presents the 3rd Annual Pharma Manufacturing  Automatio
+************
+Sentiment Polarity: 0.4650166666666667
+Sentiment Subjectivity: 0.2916666666666667
+Sentiment (url): None
+Sentiment (algorithm): positive
+Overall sentiment (textblob):  Sentiment(polarity=0.15833333333333335, subjectivity=0.2916666666666667)
+Overall sentiment (vader):  {'neg': 0.0, 'neu': 0.691, 'pos': 0.309, 'compound': 0.7717}
+sentence was rated as  0.0 % Negative
+sentence was rated as  69.1 % Neutral
+sentence was rated as  30.9 % Positive
+************
+2020-03-22 22:10:56,982 [INFO][stocksight] Adding tweet to elasticsearch
+
+------------------------------> (tweets: 270, filtered: 129, filter-ratio: 47.78%)

@@ -1,0 +1,26 @@
+Tweet Date: 2020-03-23T04:43:15
+Screen Name: MotezumaVictor
+Location: None
+Language: None
+Friends: 10563
+Followers: 11008
+Statuses: 55343
+Tweet ID: 1241948600709627915
+Tweet Raw Text: RT @JasonRobergeVA: Securing our borders and bringing back manufacturing to the US has never been more important!
+Tweet Filtered Text: @JasonRobergeVA: Securing our borders and bringing back manufacturing to the US has never been more important!
+NLTK Tokens: ['jasonrobergeva', 'securing', 'borders', 'bringing', 'back', 'manufacturing', 'never', 'important']
+Tweet Clean Text (sentiment): Securing our borders and bringing back manufacturing to the US has never been more important!
+************
+Sentiment Polarity: 0.26576666666666665
+Sentiment Subjectivity: 0.5
+Sentiment (url): None
+Sentiment (algorithm): positive
+Overall sentiment (textblob):  Sentiment(polarity=0.3333333333333333, subjectivity=0.5)
+Overall sentiment (vader):  {'neg': 0.104, 'neu': 0.747, 'pos': 0.149, 'compound': 0.1982}
+sentence was rated as  10.4 % Negative
+sentence was rated as  74.7 % Neutral
+sentence was rated as  14.899999999999999 % Positive
+************
+2020-03-22 21:43:20,530 [INFO][stocksight] Adding tweet to elasticsearch
+
+------------------------------> (tweets: 36, filtered: 15, filter-ratio: 41.67%)

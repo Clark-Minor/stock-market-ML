@@ -1,0 +1,31 @@
+<------------------------------
+Tweet Date: 2020-03-23T04:43:12
+Screen Name: Colleen62567745
+Location: None
+Language: None
+Friends: 107
+Followers: 726
+Statuses: 163707
+Tweet ID: 1241948589804437504
+Tweet Raw Text: RT @bennyjohnson: New York will start implementing the trial drugs to treat Coronavirus.
+
+NY has acquired:
+- 70,000 Hydroxychloroquine
+- 10…
+Tweet Filtered Text: @bennyjohnson: New York will start implementing the trial drugs to treat Coronavirus.  NY has acquired: - 70,000 Hydroxychloroquine - 10
+NLTK Tokens: ['bennyjohnson', 'new', 'york', 'start', 'implementing', 'trial', 'drugs', 'treat', 'coronavirus', 'acquired', 'hydroxychloroquine']
+Tweet Clean Text (sentiment): New York will start implementing the trial drugs to treat Coronavirus.  NY has acquired: - 70,000 Hydroxychloroquine - 10
+************
+Sentiment Polarity: 0.2691318181818182
+Sentiment Subjectivity: 0.45454545454545453
+Sentiment (url): None
+Sentiment (algorithm): positive
+Overall sentiment (textblob):  Sentiment(polarity=0.13636363636363635, subjectivity=0.45454545454545453)
+Overall sentiment (vader):  {'neg': 0.0, 'neu': 0.87, 'pos': 0.13, 'compound': 0.4019}
+sentence was rated as  0.0 % Negative
+sentence was rated as  87.0 % Neutral
+sentence was rated as  13.0 % Positive
+************
+2020-03-22 21:43:18,072 [INFO][stocksight] Adding tweet to elasticsearch
+
+------------------------------> (tweets: 33, filtered: 14, filter-ratio: 42.42%)

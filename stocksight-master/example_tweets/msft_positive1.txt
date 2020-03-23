@@ -1,0 +1,26 @@
+Tweet Date: 2020-03-22T23:43:49
+Screen Name: tres444
+Location: The Road Not Taken
+Language: None
+Friends: 5003
+Followers: 3436
+Statuses: 504959
+Tweet ID: 1241873247064469504
+Tweet Raw Text: RT @CNET: Yes, you can get Microsoft Office 365 for free https://t.co/8DDBA5iMTO
+Tweet Filtered Text: @CNET: Yes, you can get Microsoft Office 365 for free
+NLTK Tokens: ['cnet', 'yes', 'get', 'microsoft', 'office', 'free']
+Tweet Clean Text (sentiment): Yes, you can get Microsoft Office 365 for free
+************
+Sentiment Polarity: 0.5592
+Sentiment Subjectivity: 0.8
+Sentiment (url): None
+Sentiment (algorithm): positive
+Overall sentiment (textblob):  Sentiment(polarity=0.4, subjectivity=0.8)
+Overall sentiment (vader):  {'neg': 0.0, 'neu': 0.538, 'pos': 0.462, 'compound': 0.7184}
+sentence was rated as  0.0 % Negative
+sentence was rated as  53.800000000000004 % Neutral
+sentence was rated as  46.2 % Positive
+************
+2020-03-22 16:43:55,455 [INFO][stocksight] Adding tweet to elasticsearch
+
+------------------------------> (tweets: 81, filtered: 38, filter-ratio: 46.91%)

@@ -1,0 +1,30 @@
+Tweet Date: 2020-03-22T23:41:06
+Screen Name: NLuafutu1
+Location: Auckland, New Zealand
+Language: None
+Friends: 277
+Followers: 271
+Statuses: 6407
+Tweet ID: 1241872564554588160
+Tweet Raw Text: RT @LifeNewsHQ: Hey @BillGates
+
+Instead of spending 11 million on killing people you could have spent it on ventilators and masks.
+
+#Chine…
+Tweet Filtered Text: @LifeNewsHQ: Hey @BillGates   Instead of spending 11 million on killing people you could have spent it on ventilators and masks.  #Chine
+NLTK Tokens: ['lifenewshq', 'hey', 'billgates', 'instead', 'spending', 'million', 'killing', 'people', 'could', 'spent', 'ventilators', 'masks', 'chine']
+Tweet Clean Text (sentiment): Hey    Instead of spending 11 million on killing people you could have spent it on ventilators and masks.
+************
+Sentiment Polarity: -0.37984999999999997
+Sentiment Subjectivity: 0.1
+Sentiment (url): None
+Sentiment (algorithm): negative
+Overall sentiment (textblob):  Sentiment(polarity=-0.1, subjectivity=0.1)
+Overall sentiment (vader):  {'neg': 0.206, 'neu': 0.794, 'pos': 0.0, 'compound': -0.6597}
+sentence was rated as  20.599999999999998 % Negative
+sentence was rated as  79.4 % Neutral
+sentence was rated as  0.0 % Positive
+************
+2020-03-22 16:41:12,324 [INFO][stocksight] Adding tweet to elasticsearch
+
+------------------------------> (tweets: 16, filtered: 6, filter-ratio: 37.5%)

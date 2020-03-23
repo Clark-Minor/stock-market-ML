@@ -1,0 +1,27 @@
+<------------------------------
+Tweet Date: 2020-03-23T04:43:50
+Screen Name: MichaelHowe01
+Location: None
+Language: None
+Friends: 236
+Followers: 29
+Statuses: 1680
+Tweet ID: 1241948749016043520
+Tweet Raw Text: RT @ajbprods: @DonaldJTrumpJr My mom has been taking hydroxychloroquine for 20 years for her rheumatoid arthritis. It’s easy to get and ext…
+Tweet Filtered Text: @ajbprods: @DonaldJTrumpJr My mom has been taking hydroxychloroquine for 20 years for her rheumatoid arthritis. It’s easy to get and ext
+NLTK Tokens: ['ajbprods', 'donaldjtrumpjr', 'mom', 'taking', 'hydroxychloroquine', 'years', 'rheumatoid', 'arthritis', 'easy', 'get', 'ext']
+Tweet Clean Text (sentiment): My mom has been taking hydroxychloroquine for 20 years for her rheumatoid arthritis. It’s easy to get and ext
+************
+Sentiment Polarity: 0.4368666666666667
+Sentiment Subjectivity: 0.8333333333333334
+Sentiment (url): None
+Sentiment (algorithm): positive
+Overall sentiment (textblob):  Sentiment(polarity=0.43333333333333335, subjectivity=0.8333333333333334)
+Overall sentiment (vader):  {'neg': 0.0, 'neu': 0.861, 'pos': 0.139, 'compound': 0.4404}
+sentence was rated as  0.0 % Negative
+sentence was rated as  86.1 % Neutral
+sentence was rated as  13.900000000000002 % Positive
+************
+2020-03-22 21:43:55,825 [INFO][stocksight] Adding tweet to elasticsearch
+
+------------------------------> (tweets: 111, filtered: 53, filter-ratio: 47.75%)
