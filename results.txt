@@ -1,1 +1,0 @@
-['UNM', 'KSS', 'PETS', 'WGO', 'AEO', 'DLPH', 'CLF', 'DDS', 'CCL', 'PDCO', 'DNR', 'BIG', 'PBI', 'XRX', 'IR', 'NTAP', 'GTN']

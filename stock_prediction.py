@@ -7,7 +7,7 @@ from utils import data_string_to_float, status_calc
 OUTPERFORMANCE = 20
 
 
-def build_data_set():
+def build_data_set(outperformance):
     """
     Reads the keystats.csv file and prepares it for scikit-learn
     :return: X_train and y_train numpy arrays
@@ -22,15 +22,15 @@ def build_data_set():
         status_calc(
             training_data["stock_p_change"],
             training_data["SP500_p_change"],
-            OUTPERFORMANCE,
+            outperformance,
         )
     )
 
     return X_train, y_train
 
 
-def predict_stocks():
-    X_train, y_train = build_data_set()
+def predict_stocks(outperformance):
+    X_train, y_train = build_data_set(outperformance)
     # Remove the random_state parameter to generate actual predictions
     clf = RandomForestClassifier(n_estimators=100, random_state=0)
     clf.fit(X_train, y_train)
@@ -49,13 +49,22 @@ def predict_stocks():
     else:
         invest_list = z[y_pred].tolist()
         #print(invest_list)
-        print(
-            f"{len(invest_list)} stocks predicted to outperform the S&P500 by more than {OUTPERFORMANCE}%:"
-        )
-        print(invest_list)
+        #print(
+        #    f"{len(invest_list)} stocks predicted to outperform the S&P500 by more than {outperformance}%:"
+        #)
+        #print(invest_list)
         return invest_list
 
 
 if __name__ == "__main__":
     print("Building dataset and predicting stocks...")
-    predict_stocks()
+    print("outperformance = 20")
+    print(predict_stocks(20))
+    print("outperformance = 10")
+    print(list(set(predict_stocks(10)) - set(predict_stocks(20))))
+    print("outperformance = 5")
+    print(list(set(predict_stocks(5)) - set(predict_stocks(10))))
+    print("outperformance = 0")
+    print(list(set(predict_stocks(0)) - set(predict_stocks(5))))
+    #print("outperformance = -10")
+    #print(list(set(predict_stocks(-10)) - set(predict_stocks(0))))

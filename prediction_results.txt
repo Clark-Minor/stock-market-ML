@@ -1,0 +1,10 @@
+python3 stock_prediction.py
+Building dataset and predicting stocks...
+outperformance = 20
+['LSI', 'UNM', 'KSS', 'PETS', 'WGO', 'PFG', 'DAL', 'LNC', 'AEO', 'IPG', 'DLPH', 'DHI', 'CLF', 'WHR', 'DDS', 'CCL', 'BWA', 'GWW', 'LYB', 'FLWS', 'BIG', 'PBI', 'XRX', 'IR', 'NTAP', 'MYL', 'TRIP']
+outperformance = 10
+['VLO', 'DKS', 'PHM', 'JCI', 'RL', 'ROK', 'AMP', 'HUM', 'INTU', 'MAC', 'DNR', 'NWL', 'BLK', 'VMC', 'PH', 'DISCA', 'ROP', 'FLIR', 'APD', 'PPG', 'NSC', 'BIIB', 'LRCX', 'LH', 'SHW', 'ATI', 'HOG', 'EW', 'CME', 'CMI']
+outperformance = 5
+['PXD', 'SYY', 'AVY', 'GWW', 'JWN', 'STX', 'PWR', 'PNR', 'EXPE', 'IPG', 'GD', 'PDCO', 'PRU', 'EBAY', 'ADM', 'AON', 'ECL', 'HAS', 'KR', 'TMO', 'OKE', 'DGX', 'LYB', 'TRV', 'PSA', 'KMX', 'BBY', 'DD', 'TEL', 'NTAP', 'JNPR', 'ADP', 'KSU', 'MU', 'ABC', 'EMN', 'COP', 'TAP', 'RHI', 'AMAT', 'HIG', 'DTE', 'PCAR', 'SPG', 'DE', 'RTN', 'DOV', 'ADI', 'HON', 'LEN', 'DLPH', 'CNP', 'GTN', 'PSX']
+outperformance = 0
+['DKS', 'VFC', 'CTSH', 'SRE', 'XLNX', 'SYK', 'OMC', 'IP', 'A', 'V', 'CSX', 'EA', 'FLIR', 'LUV', 'VNO', 'XRAY', 'EMR', 'CSCO', 'KLAC', 'KMI', 'PLD', 'NUE', 'ATVI', 'CF', 'FB', 'CME', 'AMD']

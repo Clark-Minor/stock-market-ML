@@ -202,7 +202,7 @@ def plot_ticker_performance(otherTicker, otherCompanyName):
 
 
 if __name__ == "__main__":
-    outperforming_tickers = ['LSI', 'UNM', 'KSS', 'PETS', 'WGO', 'PFG', 'DAL', 'LNC', 'AEO', 'IPG', 'DHI', 'CLF', 'WHR', 'DDS', 'CCL', 'BWA', 'GWW', 'FLWS', 'BIG', 'PBI', 'XRX', 'IR', 'NTAP', 'MYL']
+    outperforming_tickers = ['VLO', 'DKS', 'PHM', 'JCI', 'RL', 'ROK', 'AMP', 'HUM', 'INTU', 'MAC', 'DNR', 'NWL', 'BLK', 'VMC', 'PH', 'DISCA', 'ROP', 'FLIR', 'APD', 'PPG', 'NSC', 'BIIB', 'LRCX', 'LH', 'SHW', 'ATI', 'HOG', 'EW', 'CME', 'CMI']
     for ticker in outperforming_tickers:
         plot_ticker_performance(ticker, ticker)
     # if len(sys.argv) == 5:
