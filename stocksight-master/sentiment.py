@@ -75,6 +75,16 @@ twitter_users_file = './twitteruserids.txt'
 prev_time = time.time()
 sentiment_avg = [0.0,0.0,0.0]
 
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 
 class TweetStreamListener(StreamListener):
 
@@ -544,7 +554,8 @@ def sentiment_analysis(text):
 
     # output sentiment
     print("Sentiment (url): " + str(sentiment_url))
-    print("Sentiment (algorithm): " + str(sentiment))
+    print(f"{bcolors.WARNING}Sentiment (algorithm):" + str(sentiment) + f"{bcolors.ENDC}")
+    print()
     print("Overall sentiment (textblob): ", text_tb.sentiment)
     print("Overall sentiment (vader): ", text_vs)
     print("sentence was rated as ", text_vs['neg']*100, "% Negative")
