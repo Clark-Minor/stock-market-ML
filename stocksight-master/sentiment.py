@@ -250,6 +250,13 @@ class TweetStreamListener(StreamListener):
 
             if not args.noelasticsearch:
                 logger.info("Adding tweet to elasticsearch")
+                if sentiment == 'neutral':
+                    logger.info(f'{bcolors.WARNING}' + 'author: ' + screen_name + ' : location: ' + location +  ' : date: ' + created_date  + ' : message: ' + text_filtered + ' : sentiment:' + sentiment + f'{bcolors.ENDC}')
+                if sentiment == 'positive':
+                    logger.info(f'{bcolors.OKBLUE}' + 'author: ' + screen_name + ' : location: ' + location +  ' : date: ' + created_date  + ' : message: ' + text_filtered + ' : sentiment:' + sentiment + f'{bcolors.ENDC}')
+                if sentiment == 'negative':
+                    logger.info(f'{bcolors.FAIL}' + 'author: ' + screen_name + ' : location: ' + location +  ' : date: ' + created_date  + ' : message: ' + text_filtered + ' : sentiment:' + sentiment + f'{bcolors.ENDC}')
+
                 # add twitter data and sentiment info to elasticsearch
                 es.index(index=args.index,
                         doc_type="tweet",
@@ -747,7 +754,6 @@ if __name__ == '__main__':
         sys.exit("Symbol cannot be more than 25 characters")
 
 
-
     # set up logging
     logger = logging.getLogger('stocksight')
     logger.setLevel(logging.INFO)
@@ -956,6 +962,7 @@ if __name__ == '__main__':
             url = "https://finance.yahoo.com/quote/%s/?p=%s" % (args.symbol, args.symbol)
 
             logger.info('NLTK tokens required: ' + str(nltk_tokens_required))
+            print(f"{bcolors.WARNING}Sentiment (algorithm):" + str(nltk_tokens_required) + f"{bcolors.ENDC}")
             logger.info('NLTK tokens ignored: ' + str(nltk_tokens_ignored))
             logger.info("Scraping news for %s from %s ..." % (args.symbol, url))
 
@@ -1037,8 +1044,11 @@ if __name__ == '__main__':
 
         try:
             # search twitter for keywords
+            nltk_tokens_required = args.keywords.split(',')
+            #print(nltk_tokens_required)
+
             logger.info('Stock symbol: ' + str(args.symbol))
-            logger.info('NLTK tokens required: ' + str(nltk_tokens_required))
+            logger.info(f'{bcolors.OKBLUE}NLTK tokens required:' + str(nltk_tokens_required) + f'{bcolors.ENDC}')
             logger.info('NLTK tokens ignored: ' + str(nltk_tokens_ignored))
             logger.info('Twitter Feeds: ' + str(twitter_feeds))
             logger.info('Twitter User Ids: ' + str(useridlist))
@@ -1050,6 +1060,8 @@ if __name__ == '__main__':
                 # keywords to search on twitter
                 # add keywords to list
                 keywords = args.keywords.split(',')
+
+
                 if args.addtokens:
                     # add tokens to keywords to list
                     for f in nltk_tokens_required:
